@@ -23,8 +23,8 @@ Make sure tensorflow and h5py has been installed successfully before you install
 * **model:** contains the implementation for MuPIPR.
 
 
-## Using the pre-trained contextualized embeddings model
-We obtain the corpus to pre-train the contextualized amino acid encoder from the STRING database. A total of 66235 protein sequences of four most frequent species from the SKEMPI database are extracted, i.e. Homo sapiens, Bos taurus, Mus musculus and Escherichia coli. These are the four most frequent species in the SKP1402m dataset.
+## Using the pre-trained amino acid language model for contextualized representation
+We obtain the corpus to pre-train the BiLSTM language model from the STRING database. A total of 66235 protein sequences of four most frequent species from the SKEMPI database are extracted, i.e. Homo sapiens, Bos taurus, Mus musculus and Escherichia coli. These are the four most frequent species in the SKP1402m dataset.
 
 To serve the pre-trained contextualized embedding model to MuPIPR, please download and unzip the model.zip file in the biLM folder.
 
